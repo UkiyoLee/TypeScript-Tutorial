@@ -9,7 +9,7 @@ hero:
   text: "UkiyoLee 的 TypeScript 学习实录"
   tagline: TypeScript 从入门到精通<br />基础，进阶，实战，从零开始，快速入门，熟练掌握
   image:
-    src: '/public/typescript.svg'
+    src: 'https://pic1.zhimg.com/v2-cf2eeeb829610bc029776cdab2b1f3de_1440w.jpg?source=172ae18b'
     alt: "TypeScript 编程笔记"
   actions:
     - theme: brand
