@@ -9,6 +9,10 @@ const navbar: DefaultTheme.NavItem[] = [
     text: '指南',
     link: '/guide',
   },
+  {
+    text: '演练场',
+    link: 'https://www.typescriptlang.org/play'
+  }
   // {
   //   text: 'JavaScript API',
   //   link: '/api'

@@ -4,7 +4,7 @@ const sidebar: DefaultTheme.Sidebar = {
   '/guide': [
     {
       text: '简介',
-      link: '/guide',
+      link: '/guide/',
       items: [
         {
           text: '什么是 TypeScript',
@@ -21,17 +21,17 @@ const sidebar: DefaultTheme.Sidebar = {
       ]
     }
   ],
-  '/api': [
-    {
-      text: 'Array',
-      link: '/array',
-      items: [
-        {
-          text: 'Array.new()',
-        }
-      ]
-    }
-  ]
+  // '/api': [
+  //   {
+  //     text: 'Array',
+  //     link: '/array',
+  //     items: [
+  //       {
+  //         text: 'Array.new()',
+  //       }
+  //     ]
+  //   }
+  // ]
 }
 
 export default sidebar;

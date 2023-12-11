@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/installation
+      link: /guide
     # - theme: alt 
     #   text: API
     #   link: /api
@@ -32,10 +32,8 @@ features:
   - icon: 📖
     title: 实战教程
     details: 实战教程，从实际项目出发，巩固基础
-
-footer: MIT Licensed | Copyright © 2021-present
 ---
- <!--
+<!--  
  
  <style>
 :root {
@@ -58,5 +56,4 @@ footer: MIT Licensed | Copyright © 2021-present
   }
 }
 </style>
- 
- -->
+  -->
