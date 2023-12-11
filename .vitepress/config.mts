@@ -16,13 +16,13 @@ export default defineConfig({
     }
   },
   head: [
-    ['link', { rel: 'icon', href: '/static/typescript.svg' }],
+    ['link', { rel: 'icon', href: '/public/typescript.svg' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/static/typescript.svg',
+    logo: '/public/typescript.svg',
     nav,
     sidebar,
     search,
