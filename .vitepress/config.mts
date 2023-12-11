@@ -48,6 +48,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
+    sidebarMenuLabel: '目录',
+    returnToTopLabel: '回到顶部',
     footer: {
       copyright: `Copyright © ${ new Date().getFullYear() } Leo & UkiyoLee`,
       message: 'Released under the MIT License.'
