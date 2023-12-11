@@ -1,0 +1,20 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "author": "Logic Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  },
+  "dependencies": {
+    "element-plus": "^2.4.3",
+    "vue": "^3.3.10"
+  }
+}
