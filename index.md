@@ -15,9 +15,9 @@ hero:
     - theme: brand
       text: 快速开始
       link: /guide/installation
-    - theme: alt 
-      text: API
-      link: /api
+    # - theme: alt 
+    #   text: API
+    #   link: /api
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/vuejs/vitepress

@@ -9,10 +9,10 @@ const navbar: DefaultTheme.NavItem[] = [
     text: '指南',
     link: '/guide',
   },
-  {
-    text: 'JavaScript API',
-    link: '/api'
-  },
+  // {
+  //   text: 'JavaScript API',
+  //   link: '/api'
+  // },
 ];
 
 export default navbar;
