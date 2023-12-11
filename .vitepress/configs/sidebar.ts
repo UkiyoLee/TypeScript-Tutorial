@@ -4,7 +4,6 @@ const sidebar: DefaultTheme.Sidebar = {
   '/guide': [
     {
       text: '简介',
-      link: '/guide/',
       items: [
         {
           text: '什么是 TypeScript',
