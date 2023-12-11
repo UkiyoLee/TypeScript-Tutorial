@@ -15,7 +15,7 @@ hero:
     - theme: brand
       text: 快速开始
       link: /guide/installation
-    - theme: alt
+    - theme: alt 
       text: API
       link: /api
     - theme: alt

@@ -15,11 +15,15 @@ export default defineConfig({
       lang: "zh-CN",
     }
   },
+  transformHead: ({ assets }) => {
+    return [
+      ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+      ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+      ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap' }]
+    ]
+  },
   head: [
     ['link', { rel: 'icon', href: 'https://pic1.zhimg.com/v2-cf2eeeb829610bc029776cdab2b1f3de_1440w.jpg?source=172ae18b' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOriginIsolated: 'true' }],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
