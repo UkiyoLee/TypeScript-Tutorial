@@ -41,12 +41,16 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇'
     },
+    editLink: {
+      pattern: 'ttps://github.com/vuejs/vitepress/edit/main/:path',
+      text: '在 GitHub 上编辑此页'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
     footer: {
       copyright: `Copyright © ${ new Date().getFullYear() } Leo & UkiyoLee`,
-
+      message: 'Released under the MIT License.'
     }
   }
 })
