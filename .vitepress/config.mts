@@ -16,7 +16,8 @@ export default defineConfig({
     }
   },
   head: [
-    ['link', {rel: 'icon', href: '/assets/typescript.svg'}]
+    ['link', { rel: 'icon', href: '/assets/typescript.svg' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -32,10 +33,11 @@ export default defineConfig({
       next: '下一篇'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
     footer: {
       copyright: `Copyright © ${ new Date().getFullYear() } Leo & UkiyoLee`,
+
     }
   }
 })
