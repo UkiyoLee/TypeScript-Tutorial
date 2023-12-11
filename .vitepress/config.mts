@@ -17,6 +17,7 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', href: '/assets/typescript.svg' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap' }]
   ],
   themeConfig: {
