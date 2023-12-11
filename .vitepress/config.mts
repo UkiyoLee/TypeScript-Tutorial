@@ -31,6 +31,9 @@ export default defineConfig({
     nav,
     sidebar,
     search,
+    outline: {
+      label: '大纲'
+    },
     lastUpdated: {
       text: '上次更新'
     },
