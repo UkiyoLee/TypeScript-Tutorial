@@ -15,9 +15,9 @@ hero:
     - theme: brand
       text: 快速开始
       link: /guide
-    - theme: alt 
-      text: 演练场
-      link: https://www.typescriptlang.org/play
+    # - theme: alt 
+    #   text: 演练场
+    #   link: https://www.typescriptlang.org/play
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/UkiyoLee/TypeScript-Tutorial
