@@ -23,8 +23,53 @@
 
 TypeScript 是一种由微软开发的自由和开源的编程语言，并将其[开源在 GitHub](https://github.com/Microsoft/TypeScript) 上
 
-虽说 TypeScript 几乎完全沿用并包含 JavaScript，它几乎拥有 JavaScript 的所有特性，包括基本语法、语句、运算符、数据类型、语句、对象、数组、函数等，但并不与 JavaScript 完全一致，除了本身的**类型系统**和对**ES6**的支持以外，语言本身也和 JavaScript 不同
+它的第一个版本发布于 2012 年 10 月，经历了多次更新后，现在已成为前端中大型项目的主流语言，由尤雨溪主导开发的主流前端框架 Vue 在第三个大型版本 Vue 3 中也提供了方便的 TypeScript 支持，Vue 3 本身也使用 TypeScript 重构
 
 详情请阅读[什么是 TypeScript](/guide/introduction)
 
-## 
+## 适用人群
+
+本文档适合以下人群：
+* 已经系统学习过并熟练掌握 JavaScript 的相关知识，对 JavaScript 有基本的了解，并想了解 TypeScript 的相关知识
+* 已经学习过 TypeScript，但还不知道 TypeScript 有哪些特性，本文档将帮助您快速了解 TypeScript 的相关特性，相当于可以把本文档当作是一个 TypeScript 语法字典，需要时进行查询
+
+而本文档**不太适用**以下人群:
+* 已经熟悉 TypeScript 相关知识，能熟练使用 TypeScript 编写大型项目
+* 没有或不熟悉 JavaScript 相关知识，建议先阅读 JavaScript 相关文档，再阅读本文档
+* 对算法、数据结构等相关知识有追求，本文档并不涉及这些知识
+
+## 参与文档
+
+欢迎各位对本文档提供国际化、参与修订、完善文档等贡献，您可以 Fork 项目后进行修改，并提交 Issue 的方式参与贡献，提交 Issue 时，建议给作者发送邮件 `1739902271@qq.com`
+
+项目地址：[TypeScript 编程笔记](https://github.com/UkiyoLee/TypeScript-Tutorial)
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme';
+
+const members = [
+  {
+    avatar: 'https://www.github.com/UkiyoLee.png',
+    name: 'UkiyoLee',
+    title: '创建者',
+    links: [
+      { icon: 'github', link: 'https://github.com/UkiyoLee' },
+    ]
+  },
+]
+</script>
+
+## 贡献者
+
+<VPTeamMembers class="members" size="small" :members="members" />
+
+## 版权许可
+* 本书采用 MIT 许可证
+* 您可以自由地阅读、分享、修改本文档，不过请在分享、修改、转载本文档时保留版权信息
+
+<style scoped>
+.members {
+  display: flex;
+  justify-content: space-around;
+}
+</style>
