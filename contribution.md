@@ -1,6 +1,6 @@
 ---
-layout: doc
 sidebar: false
+editLink: false
 ---
 
 # 代码贡献
@@ -13,9 +13,28 @@ sidebar: false
 
 ## 通过 npm 下载依赖
 
-使用 IDE 或 VS Code 打开您拉取的项目，并在项目根目录打开终端，输入以下命令
+使用 IDE 或 VS Code 打开您拉取的项目，并在项目根目录打开控制台或终端，输入以下命令
 
-```terminal
+```bash
 npm install
 ```
 
+## 运行项目
+
+在控制台输入以下命令启动项目
+
+```bash
+npm run dev
+```
+
+## 修改项目
+
+本文档与其它以 VitePress 搭建的文档项目不同，文档直接存放在根目录而不是 `docs` 文件夹中，也就是说，除非新增一个名为 `docs` 的路由，否则本文档将没有 `docs` 文件夹
+
+## 代码规范
+
+严格意义说来， Markdown 文件不算代码，但请容许我将 Markdown 文件的相关规范放在此处
+
+### Markdown 文件
+
+Markdown 文件请尽量使用单个单词命名，且保持*全小写*，如 `introduction.md`, 如果需要使用两个及以上的单词命名，请在保持全小写的同时在两个单词之间使用减号 `-` 作为连接符，如 `get-started.md`
