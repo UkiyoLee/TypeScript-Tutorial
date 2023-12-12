@@ -70,6 +70,6 @@ const members = [
 <style scoped>
 .members {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; 
 }
 </style>
