@@ -46,4 +46,4 @@ Markdown 文件请尽量使用单个单词命名，且保持**全小写**，如 
 
 ### Vue 组件
 
-如果您要为本文档新增 Vue 组件，请使用大驼峰命名，如 `VueComponent.vue`
+如果您要为本文档新增 Vue 组件，请使用大驼峰命名，如 `VueComponent.vue`，在使用组件时，请同样使用大驼峰的形式使用 Vue 组件，如 `<VueComponent />`
