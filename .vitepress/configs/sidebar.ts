@@ -18,6 +18,19 @@ const sidebar: DefaultTheme.Sidebar = {
           link: '/guide/hello-typescript'
         }
       ]
+    },
+    {
+      text: '基础',
+      items: [
+        {
+          text: '基础类型',
+          link: '/guide/basic/basic-types'
+        }
+      ]
+    },
+    {
+      text: '进阶',
+      items: []
     }
   ],
   // '/api': [

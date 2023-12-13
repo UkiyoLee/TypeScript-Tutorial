@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 import nav from './configs/nav';
 import sidebar from './configs/sidebar';
 import search from './configs/search';
+import { bilibili } from './svgs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -32,7 +33,8 @@ export default defineConfig({
     sidebar,
     search,
     outline: {
-      label: '大纲'
+      label: '大纲',
+      level: [2, 4]
     },
     lastUpdated: {
       text: '上次更新'
@@ -47,6 +49,12 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      {
+        icon: {
+          svg: bilibili
+        },
+        link: 'https://space.bilibili.com/701502759?spm_id_from=333.1007.0.0'
+      }
     ],
     sidebarMenuLabel: '目录',
     returnToTopLabel: '回到顶部',
