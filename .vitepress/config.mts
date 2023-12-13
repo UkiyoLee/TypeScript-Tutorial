@@ -49,12 +49,12 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      // {
-      //   icon: {
-      //     svg: bilibili
-      //   },
-      //   link: 'https://space.bilibili.com/701502759?spm_id_from=333.1007.0.0'
-      // }
+      {
+        icon: {
+          svg: bilibili
+        },
+        link: 'https://space.bilibili.com/701502759?spm_id_from=333.1007.0.0'
+      }
     ],
     sidebarMenuLabel: '目录',
     returnToTopLabel: '回到顶部',
