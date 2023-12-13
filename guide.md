@@ -40,7 +40,7 @@ TypeScript 是一种由微软开发的自由和开源的编程语言，并将其
 
 ## 参与文档
 
-欢迎各位对本文档提供国际化、参与修订、完善文档等贡献，您可以 Fork 项目后进行修改，并提交 Issue 的方式参与贡献，提交 Issue 时，建议给作者发送邮件 `1739902271@qq.com`，这样在作者采用您的 Issue 时便于与您联系和沟通后再合并您的 Issue，合并您的 Issue 后，您的 GitHub 头像和 GitHub 地址将在[贡献者名单](/contributors)中展示（同时也会在[导航](/guide.md)页的[贡献者](#贡献者)中为主要贡献者显示相关信息）
+欢迎各位对本文档提供国际化、参与修订、完善文档等贡献，您可以 Fork 项目后进行修改，并提交 Issue 的方式参与贡献，提交 Issue 时，建议给作者发送邮件 `1739902271@qq.com`，这样在作者采用您的 Issue 时便于与您联系和沟通后再合并您的 Issue，合并您的 Issue 后，您的 GitHub 头像和 GitHub 地址将在[贡献者名单](/contributors)中展示
 
 项目地址：[TypeScript 编程笔记](https://github.com/UkiyoLee/TypeScript-Tutorial)
 
