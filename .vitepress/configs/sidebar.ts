@@ -24,7 +24,7 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         {
           text: '基础类型',
-          link: '/guide/ basic/basic-types'
+          link: '/guide/basic/basic-types'
         }
       ]
     },
