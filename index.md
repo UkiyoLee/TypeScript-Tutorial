@@ -32,9 +32,12 @@ features:
   - icon: 📖
     title: 实战教程
     details: 实战教程，从实际项目出发，巩固基础
+  - icon: 💡
+    title: 实时练习
+    details: 实时练习，边学边练，边学边用
 ---
 
-<style>
+<style scoped>
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #4354ff 30%, #41d1ff);
