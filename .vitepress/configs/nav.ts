@@ -14,8 +14,17 @@ const navbar: DefaultTheme.NavItem[] = [
     link: 'https://www.typescriptlang.org/play'
   },
   {
-    text: '贡献代码',
-    link: '/contribution'
+    text: '贡献',
+    items: [
+      {
+        text: '参与文档',
+        link: '/contribution'
+      },
+      {
+        text: '贡献者名单',
+        link: '/contributors'
+      }
+    ]
   }
   // {
   //   text: 'JavaScript API',
