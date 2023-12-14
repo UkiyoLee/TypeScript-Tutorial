@@ -35,9 +35,9 @@ const partners = [];
   </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>贡献者</template>
-    <template v-if="partners && partners === []" #lead>以下是为本文档作出贡献的小伙伴</template>
+    <template v-if="!partners || partners === []" #lead>以下是为本文档作出贡献的小伙伴</template>
     <template v-else #lead>欢迎小伙伴们积极参与本文档</template>
-    <template v-if="partners && partners === []" #members>
+    <template v-if="!partners || partners === []" #members>
       <VPTeamMembers size="small" :members="partners" />
     </template>
   </VPTeamPageSection>
