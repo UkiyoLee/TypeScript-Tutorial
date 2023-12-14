@@ -37,7 +37,7 @@ features:
     details: 实时练习，边学边练，边学边用
 ---
 
-<style scoped>
+<style>
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #4354ff 30%, #41d1ff);
