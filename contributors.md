@@ -30,7 +30,7 @@ const partners = [];
   <VPTeamPageSection>
     <template #title>站长</template>
     <template #members>
-      <VPTeamMembers size="medium" :members="coreMembers" />
+      <VPTeamMembers size="small" :members="coreMembers" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
