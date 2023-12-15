@@ -10,6 +10,10 @@ const navbar: DefaultTheme.NavItem[] = [
     link: '/guide',
   },
   {
+    text: '参考',
+    link: '/reference',
+  },
+  {
     text: '演练场',
     link: 'https://www.typescriptlang.org/play'
   },
@@ -26,10 +30,6 @@ const navbar: DefaultTheme.NavItem[] = [
       }
     ]
   }
-  // {
-  //   text: 'JavaScript API',
-  //   link: '/api'
-  // },
 ];
 
 export default navbar;
